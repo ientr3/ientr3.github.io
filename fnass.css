@@ -1,0 +1,445 @@
+@charset "UTF-8";
+/* CSS Document */
+/* CSS Document */ /* Reset CSS*/
+*{ margin:0; padding:0;}
+
+a {color:white;
+  text-decoration: none;}
+.header {width:1450px;
+		height:0px;
+		color:white;}
+.header p {margin-left:10%;
+			width: 300px;
+			font-size:20px;
+			font-family:Baskerville,  "Times New Roman", "serif";}
+.header ul li { font-size: 15px;
+	display:inline;
+	float: right;
+	margin: 10px;
+	font-family:Baskerville,  "Times New Roman", "serif";}
+.header .menu ul {display: inline;
+	   		margin: 0% 0% 0% 40%;}
+.header .menu {padding-right:10%;
+				padding-top:1%;}
+
+.home {height: 800px;
+	background-image:url("Screen Shot 2021-08-19 at 15.23.14.png");
+	width: 1450px;
+	background-size: cover;
+	background-position: right;
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+	}
+.ndhome {margin: 15% 0% 0%;
+		float:left; 
+		width: 35%;
+		postion:relative;
+		margin-left: 10%;}
+.ndhome h1 {font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	        font-size: 40px;
+			color: white;}
+.ndhome p {padding:20px 0px 60px;
+		  font-family:Baskerville,  "Times New Roman", "serif";
+		  color: white;}
+.ndhome input{padding: 10px 30px;
+			border-radius: 20px;
+			border:none;
+			font-size: 12px;
+			font-family:Baskerville,  "Times New Roman", "serif";}
+
+.feature {background-image:url("Screen Shot 2021-08-19 at 15.28.53.png");
+		background-size: cover;
+		background-position: left;
+		height: 530px;
+		width: 1450px;
+		transition-duration: 2s,2s,2s,2s,2s,2s;}
+.feature .ndleft {float:left; 
+				   width: 30%;
+				   margin: 15% 0% 0% 10%;
+				color: white;
+				position: relative;}
+.feature .ndleft h1{font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	        		font-size: 40px;}
+.feature .ndleft p {margin:20px 0px 60px;
+		  			font-family:Baskerville, "serif";}
+.feature .ndright {float:right; 
+				   width: 50%;
+				height: 100%;
+				padding: 25px 0px ;}
+.feature .ndright .ndright1 {background-image:url("Screen Shot 2021-08-21 at 06.56.15.png");
+							background-size: cover;
+							background-position: right;
+							float: right;
+							width: 210px;
+							height: 330px;
+							padding: 10% 8%;
+							margin-left: 10%;
+							color:white; }
+.feature .ndright2 {background-image:url("Screen Shot 2021-08-21 at 06.56.05.png");
+					background-size: cover;
+					background-position:center;
+					float: left;
+					width: 350px;
+					height: 475px;
+					color:white; 
+					position: absolute;
+					}
+.ndright .ndright1 h1 {font-size: 120px;
+					   padding-bottom: 50px;}
+.ndright .ndright2 h1 {font-size: 120px;
+					   margin-top: 20%;
+					margin-left: 12%;}
+.ndright .ndright1 p {padding-bottom: 55px;
+					font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.ndright input {border-radius: 15px;
+				padding: 5px 10px;
+				font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+			}
+.ndright .ndright2 input {margin-top: 5%;
+						  margin-left:12%;}
+.ndright .ndright2 p {padding-bottom: 30px;
+					font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+					margin-left: 12%;
+					margin-top:16%;}
+
+.explore1 {height:800px;}
+.explore {background-color:#EAE6E2;
+		 width: 1450px;
+		height: 850px;
+		position:absolute;}
+.explore .eptop h1 {font-family: Baskerville,  "Times New Roman", "serif";
+font-size: 40px;
+float: left;
+padding-right: 50%;}
+.explore .eptop ul li {display:inline;
+margin: 10px;
+margin-top: 50px;
+font-family:Baskerville, "serif";}
+.explore .eptop ul {display: inline;
+float: right;
+margin-left: 0%;
+margin-top: 0%;
+margin-right: 20%;}
+.explore .eptop h1 {font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+font-size: 40px;
+color:#262626;
+padding: 5% 0% 0% 10%;
+float: left;
+position:relative;}
+.explore .eptop ul li {display:inline;
+margin: 20px;
+color:#262626;
+font-family:Baskerville, "serif";}
+.explore .eptop ul {display: inline;
+padding-top: 5%;
+position:relative;
+left: 11%;}
+.explore .hinh1 {background-image: url("Screen Shot 2021-08-21 at 07.09.11.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+background-size: cover;
+background-position:center;
+height: 300px;
+width: 330px;
+float: left;
+margin-top: 10%;
+position:relative;
+right: 13%;}
+.explore .hinh2 {background-image: url("Screen Shot 2021-08-21 at 07.02.53.png");
+transition-duration: 2s,2s,2s,2s,2s,2s;
+background-size: cover;
+background-position:right;;
+height: 300px;
+width: 800px;
+float: right;
+margin-top: 10%;
+position:absolute;
+right: 10%;}
+.explore .hinh3 {background-image: url("Screen Shot 2021-08-21 at 07.06.22.png");
+background-size: cover;
+background-position:center;
+height: 300px;
+width: 800px;
+float: left;
+margin-top: 2%;
+margin-left: 10%;}
+.explore .hinh4 {background-image: url("Screen Shot 2021-08-19 at 16.07.48.png");
+background-size: cover;
+background-position:center;
+height: 300px;
+width: 330px;
+float: right;
+margin-top: 2%;
+position:relative;
+right: 10%;}
+.explore h3 {color: white;
+			font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.explore p {color: white;
+			font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.explore .hinh1 h3 {margin: 60% 0% 0% 10%;}
+.explore .hinh1 p {margin: 2% 0% 0% 10%;}
+.explore .hinh2 h3 {margin: 25% 0% 0% 5%;}
+.explore .hinh2 p {margin: 1% 0% 0% 5%;}
+.explore .hinh3 h3 {margin: 25% 0% 0% 5%;}
+.explore .hinh3 p {margin: 1% 0% 0% 5%;}
+.explore .hinh4 h3 {margin: 60% 0% 0% 10%;}
+.explore .hinh4 p {margin: 2% 0% 0% 10%;}
+
+.impression {height: 800px;
+			width: 1450px;
+			background-color:#EAE6E2;}
+.impression .hinhimp h1 {
+background-image:url("Screen Shot 2021-08-21 at 08.48.18.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+background-size:cover;
+width: 800px;
+height: 400px;
+float: left;
+padding-top: 5%;}
+.impression .hinhimp h2 {background-image:url("Screen Shot 2021-08-21 at 08.47.42.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+background-size:cover;
+margin-top: 10%;
+width: 370px;
+height: 350px;
+float: right;
+position: absolute;
+right: 10%;
+}
+.impression .hinhimp h3 {background-image:url("Screen Shot 2021-08-21 at 08.47.53.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+background-size:cover;
+width: 350px;
+height: 300px;
+float: right;
+position: absolute;
+right: 25%;
+margin-top: 20%;}
+.impression h1 {margin: 01% 0% 02% 10%;
+				font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+				color:#262626;}
+.impression {padding-top: 5%;}
+.impression p {padding: 2% 0% 0% 10%;
+float: left;
+width:35%;
+font-family:Baskerville,  "Times New Roman", "serif";
+color:#262626;}
+
+.Subscribe {background-image:url("hinhsub.png");
+			background-size:cover;
+			background-position: bottom;
+			width: 1450px;
+			height: 330px;}
+.Subscribe .ndsub1 {color:white;
+				 	font-family:Baskerville,  "Times New Roman", "serif";
+					text-align:center;
+					padding: 5% 20% 0%;}
+.ndsub1 h1 {font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.ndsub1 p {margin-top: 2%;
+		margin-bottom: 5%;}
+.ndsub2 {text-align:center;}
+.ndsub2 .ipt {padding:5px 100px 5px 10px;
+			border-radius: 10px;
+			border:none;
+			}
+.ndsub2 .ipb {padding:5px 20px 5px 20px;
+			border-radius: 10px;
+			border:none;
+			color: white;
+			background-color:black;}
+
+.potential {background-color:#EAE6E2;
+			width: 1450px;
+			height: 400px;}
+.potential .ndleft {padding:5% 50% 10% 10%;
+				font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+				color:#262626;}
+.potential .ndleft p {padding-top: 12%;
+					font-family:Baskerville,  "Times New Roman", "serif";
+					color:#262626;}
+
+.blog {background-color:white;
+	  width: 1450px;
+	height: 600px;}
+.blog .hinhblogleft {background-image:url("Screen Shot 2021-08-18 at 20.49.55.png");
+					background-size:cover;
+					float:left;
+					width:725px;
+					height: 600px;
+					}
+.blog .hinhblogleft h4 {padding:60% 40% 0% 5%;
+						color:white;}
+.blog .hinhblogleft input {padding: 5px 10px;
+							margin:3% 0% 2% 5%;
+							border:none;
+							border-radius: 10px;
+							font-family:Baskerville,  "Times New Roman", "serif";
+					color:#262626;}
+.blog .hinhblogright .hinhbr1 {background-image:url("Screen Shot 2021-08-18 at 20.50.11.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+							  background-size:cover;
+								background-position: center;
+							   width: 362.5px;
+							   float:left;
+							   height: 300px;}
+.blog .hinhblogright .hinhbr1 h4 {padding:42% 20% 4% 7%;
+						color:white;}
+.blog .hinhblogright input {padding: 5px 10px;
+							margin:0% 0% 10% 7%;
+							border:none;
+							border-radius: 10px;
+					font-family:Baskerville,  "Times New Roman", "serif";
+	color:#262626;}
+.blog .hinhblogright .hinhbr2 {background-image:url("Screen Shot 2021-08-21 at 07.03.20.png");
+							transition-duration: 2s,2s,2s,2s,2s,2s;
+							  background-size:cover;
+							background-position: center;
+							   width: 362.5px;
+							   float:right;
+							   height: 300px;}
+.blog .hinhblogright .hinhbr2 h4 {padding:42% 20% 4% 7%;
+						color:white;}
+.blog .hinhblogright .hinhbr3 {background-image:url("hinhblogg.png");
+							transition-duration: 2s,2s,2s,2s,2s,2s;
+							background-size:cover;
+							background-position: bottom;
+							   width: 362.5px;
+							   float:left;
+							   height: 300px;}
+.blog .hinhblogright .hinhbr3 h4 {padding:42% 20% 4% 7%;
+								color:white;}
+.blog .hinhblogright .hinhbr4 {background-image:url("jocelyn-morales-iWfp0ofCNt8-unsplash.jpg");
+							transition-duration: 2s,2s,2s,2s,2s,2s;
+								background-size:cover;
+								background-position: center;
+							   width: 362.5px;
+							   float:left;
+							   height: 300px;}
+.blog .hinhblogright .hinhbr4 h4 {padding:42% 20% 4% 7%;
+						color:white;}
+
+.order {background-color:#EAE6E2;
+		width: 1450px;
+		height: 600px;}
+.order .input1 {margin:3% 0% 3% 20%;
+				border: none;
+				border-radius: 20px; 
+				padding: 10px 50px;
+				background-color:black;
+				color: white;
+}
+.order .order3 {background-image:url("Screen Shot 2021-08-21 at 08.51.14.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+				background-size:cover;
+				width: 375px;
+				height:400px;
+				float:left;
+				margin-top:10%;
+				color:white;
+				text-align:center;}
+.order .order1 {background-image:url("Screen Shot 2021-08-21 at 08.44.33.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+				background-size:cover;
+				width: 700px;
+				height:450px;
+				float:left;
+				text-align:center;
+				color:white;}
+.order .order1 h1 {font-size: 120px;
+				   margin-top: 5%;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.order .order1 h2 {font-size: 40px;
+				   margin-top: 2%;
+				   margin-bottom:2%;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.order .order1 p {margin: 0% 15% 3%;
+				font-family:Baskerville,  "Times New Roman", "serif";}
+.order .order1 input {border:none;
+					 padding: 5px 25px;
+					border-radius:10px;	
+					font-family:Baskerville,  "Times New Roman", "serif";}
+.order .order2 {background-image:url("Screen Shot 2021-08-21 at 06.57.11.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+				background-size:cover;
+				width: 375px;
+				height:400px;
+				float:right;
+				margin-top:2%;
+				color:white;
+				text-align:center;}
+.order .order2 h1 {font-size: 120px;
+				   margin-top: 10%;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.order .order3 h1 {font-size: 120px;
+				   margin-top: 10%;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+
+.company {background-color:#EAE6E2;
+		  width: 1450px;
+		  height: 450px;}
+.company .ndtop {padding:3% 45% 0% 10%;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.company .ndtop p {padding-top: 3%;
+				padding-bottom: 7%;
+font-family:Baskerville,  "Times New Roman", "serif";}
+.company .ndbox .b1 {margin-left: 12%;
+					width:50px;
+					float:left;
+					background-color:white;
+					padding:5%;}
+.ndbox .b1 h2 {text-align:center;
+			  font-size:30px;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.company .ndbox .b2 {margin-left: 15%;
+					width:50px;
+					float:left;
+					background-color:white;
+					padding:5%;}
+.ndbox .b2 h2 {text-align:center;
+			  font-size:30px;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.company .ndbox .b2 {margin-left: 20%;
+					width:50px;
+					float:left;
+					background-color:white;
+					padding:5%;}
+.ndbox .b3 h2 {text-align:center;
+			  font-size:30px;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+.company .ndbox .b3 {margin-left: 20%;
+					width:50px;
+					float:left;
+					background-color:white;
+					padding:5%;}
+
+.contact {background-image:url("Screen Shot 2021-08-21 at 09.25.17.png");
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+		background-size:auto;
+		 width: 1450px;
+		height: 450px;}
+.contact h1 {padding:3% 0% 0% 10%;
+font-family:"Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+color:#262626;}
+.contact .contactbox {margin:3% 0% 0% 10%;
+					 background-color: #EAE6E2;
+					width: 300px;
+					height: 200px;
+					padding: 3% 0% 0% 3%;
+					font-family:Baskerville,  "Times New Roman", "serif";
+	transition-duration: 2s,2s,2s,2s,2s,2s;
+	color:#262626;}
+.contact .contactbox p {margin: 5%;}
+
+.footer {background-color:#262626;
+	width:1450px;
+		height:35px;}
+.footer ul li { font-size: 15px;
+	color:white;
+	display:inline;
+	float: interhit;
+	margin: 10px;
+	padding-top: 50px;
+	font-family:Baskerville, "serif";}
+.footer ul {display: inline;
+	   		margin: 10% 0% 0% 25%;
+			padding-top:05%;}
+.footer .ft {padding-top: 0.5%;
+			padding-left:4%;}
